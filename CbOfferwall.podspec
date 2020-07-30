@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CbOfferwall'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of CbOfferwall SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,6 @@ Survey SDK
   s.author           = { 'yasirmturk' => 'yasirmturk@gmail.com' }
   s.source           = { :git => 'https://bitbucket.org/vikash766/cbiossdk.git', :tag => s.version.to_s }
   s.platform         = :ios
-#  s.source           = { :http => 'https://bitbucket.org/vikash766/cbiossdk/downloads/CbOfferwall-1.0.0.zip' }
 
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'CbOfferwall.framework'
