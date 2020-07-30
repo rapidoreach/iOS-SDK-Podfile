@@ -1,0 +1,32 @@
+#
+# Be sure to run `pod lib lint CbOfferwall.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
+
+Pod::Spec.new do |s|
+  s.name             = 'CbOfferwall'
+  s.version          = '1.0.0'
+  s.summary          = 'A short description of CbOfferwall SDK.'
+
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+
+  s.description      = <<-DESC
+Survey SDK
+                       DESC
+
+  s.homepage         = 'https://bitbucket.org/vikash766/cbiossdk'
+  s.license          = { :type => 'MIT' }
+  s.author           = { 'yasirmturk' => 'yasirmturk@gmail.com' }
+  s.platform         = :ios
+  s.source           = { :http => 'https://bitbucket.org/vikash766/cbiossdk/downloads/CbOfferwall-1.0.0.zip' }
+
+  s.ios.deployment_target = '11.0'
+  s.ios.vendored_frameworks = 'CbOfferwall.framework'
+end
