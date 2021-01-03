@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint CbOfferwall.podspec' to ensure this is a
+# Be sure to run `pod lib lint RapidoReach.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CbOfferwall'
+  s.name             = 'RapidoReach'
   s.version          = '1.0.1'
-  s.summary          = 'A short description of CbOfferwall SDK.'
+  s.summary          = 'A short description of RapidoReach SDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,5 +28,5 @@ Survey SDK
   s.platform         = :ios
 
   s.ios.deployment_target = '11.0'
-  s.ios.vendored_frameworks = 'CbOfferwall.framework'
+  s.ios.vendored_frameworks = 'RapidoReach.framework'
 end
