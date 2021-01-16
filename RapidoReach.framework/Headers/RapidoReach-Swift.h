@@ -210,10 +210,31 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// <code>RapidoReach</code> is the main entry point for the SDK
 SWIFT_CLASS("_TtC11RapidoReach11RapidoReach")
 @interface RapidoReach : NSObject
+/// <code>RapidoReach.shared</code> is the instance to use
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RapidoReach * _Nonnull shared;)
++ (RapidoReach * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+/// Set up the sdk with an api key and app user id
+- (void)configureWithApiKey:(NSString * _Nonnull)apiKey user:(NSString * _Nonnull)user;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class UIViewController;
+
+@interface RapidoReach (SWIFT_EXTENSION(RapidoReach))
+- (void)setRewardCallbackWithRewardCallback:(void (^ _Nonnull)(NSInteger))rewardCallback;
+- (void)setrewardCenterClosedCallbackWithRewardCallback:(void (^ _Nonnull)(void))rewardCallback;
+- (void)setrewardCenterOpenedCallbackWithRewardCallback:(void (^ _Nonnull)(void))rewardCallback;
+/// This is entry point of the sdk start by registering a user
+- (void)fetchAppUserID;
+/// Fetch a user’s rewards, uses the registerd user by default
+- (void)fetchRewardsFor:(NSString * _Nullable)userID;
+/// Present a survey screen to the user
+- (void)presentSurvey:(UIViewController * _Nonnull)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
+- (void)presentSurveyDirect;
+/// Report that a user’s abandoned the survey
+- (void)reportAbandonFor:(NSString * _Nullable)userID;
+@end
 
 
 #if __has_attribute(external_source_symbol)

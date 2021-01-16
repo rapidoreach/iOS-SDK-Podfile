@@ -1,5 +1,5 @@
 framework module RapidoReach {
-  umbrella header "RapidoReach-umbrella.h"
+  umbrella header "RapidoReach.h"
 
   export *
   module * { export * }
