@@ -225,6 +225,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RapidoReach 
 - (void)setRewardCallbackWithRewardCallback:(void (^ _Nonnull)(NSInteger))rewardCallback;
 - (void)setrewardCenterClosedCallbackWithRewardCallback:(void (^ _Nonnull)(void))rewardCallback;
 - (void)setrewardCenterOpenedCallbackWithRewardCallback:(void (^ _Nonnull)(void))rewardCallback;
+- (void)setsurveysAvailableCallbackWithSurveyAvailableCallback:(void (^ _Nonnull)(BOOL))surveyAvailableCallback;
 /// This is entry point of the sdk start by registering a user
 - (void)fetchAppUserID;
 /// Fetch a user’s rewards, uses the registerd user by default
