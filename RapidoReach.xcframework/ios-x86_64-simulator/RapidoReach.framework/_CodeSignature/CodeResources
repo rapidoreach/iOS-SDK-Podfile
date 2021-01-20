@@ -16,29 +16,29 @@
 		<data>
 		juCMtdDU7a/x5CbzxshFaVhtEak=
 		</data>
-		<key>Modules/RapidoReach.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		p+FdRriaFgRm3Xrr78SnL37iOBI=
-		</data>
-		<key>Modules/RapidoReach.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<data>
-		p+FdRriaFgRm3Xrr78SnL37iOBI=
-		</data>
 		<key>Modules/RapidoReach.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		NI6mdAt2BIZK9F3G0JflZmO95AY=
 		</data>
+		<key>Modules/RapidoReach.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		4nM4GWvLyxUt4U2mjedU3LQRnhA=
+		</data>
 		<key>Modules/RapidoReach.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FCL/2vbD09614Z7uf/X/Ywhu2tE=
+		4EWi7qmCvmhcwJVCNFSBhc7Ohx0=
 		</data>
 		<key>Modules/RapidoReach.swiftmodule/x86_64.swiftdoc</key>
 		<data>
 		NI6mdAt2BIZK9F3G0JflZmO95AY=
 		</data>
+		<key>Modules/RapidoReach.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		4nM4GWvLyxUt4U2mjedU3LQRnhA=
+		</data>
 		<key>Modules/RapidoReach.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		FCL/2vbD09614Z7uf/X/Ywhu2tE=
+		4EWi7qmCvmhcwJVCNFSBhc7Ohx0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,20 +61,6 @@
 			qz4HWcQZaHo/MnvWOCBOLhSz7+zPXFJGkdH38Pr6IO0=
 			</data>
 		</dict>
-		<key>Modules/RapidoReach.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			crIcl+lIhsYSPPqG15yHiXjV98yFbJ3YNPGcu2OntSI=
-			</data>
-		</dict>
-		<key>Modules/RapidoReach.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			crIcl+lIhsYSPPqG15yHiXjV98yFbJ3YNPGcu2OntSI=
-			</data>
-		</dict>
 		<key>Modules/RapidoReach.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
@@ -82,11 +68,18 @@
 			HvrGROsCV0yaXml/P4eZBr9932qjiEziR5LKE/pixO0=
 			</data>
 		</dict>
+		<key>Modules/RapidoReach.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9TeGhrc9czZZGXBJ+qihBl91OzE22m5rdBuuWUPJoNs=
+			</data>
+		</dict>
 		<key>Modules/RapidoReach.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rwcDBlqcng55xxNzuSulRj+Gxv4LZYMlFZP7OwTE1V4=
+			NT0UQqHnFNiEk2tHr2HRIHB5XCpBSEtOfs9fKh4dXag=
 			</data>
 		</dict>
 		<key>Modules/RapidoReach.swiftmodule/x86_64.swiftdoc</key>
@@ -96,11 +89,18 @@
 			HvrGROsCV0yaXml/P4eZBr9932qjiEziR5LKE/pixO0=
 			</data>
 		</dict>
+		<key>Modules/RapidoReach.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9TeGhrc9czZZGXBJ+qihBl91OzE22m5rdBuuWUPJoNs=
+			</data>
+		</dict>
 		<key>Modules/RapidoReach.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rwcDBlqcng55xxNzuSulRj+Gxv4LZYMlFZP7OwTE1V4=
+			NT0UQqHnFNiEk2tHr2HRIHB5XCpBSEtOfs9fKh4dXag=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

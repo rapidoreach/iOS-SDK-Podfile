@@ -28,5 +28,5 @@ Survey SDK
   s.platform         = :ios
 
   s.ios.deployment_target = '11.0'
-  s.ios.vendored_frameworks = 'RapidoReach.framework'
+  s.ios.vendored_frameworks = 'RapidoReach.xcframework'
 end
