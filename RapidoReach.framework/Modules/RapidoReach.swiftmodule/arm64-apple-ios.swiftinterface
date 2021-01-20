@@ -47,7 +47,6 @@ public protocol RapidoReachDeviceInfoProvider {
   var locale: Swift.String? { get }
 }
 public protocol RapidoReachDelegate : AnyObject {
-  func didGetAppUser(_ user: RapidoReach.RapidoReachUser)
   func didGetRewards(_ reward: RapidoReach.RapidoReachReward)
   func didGetError(_ error: RapidoReach.RapidoReachError)
   func didOpenRewardCenter()
