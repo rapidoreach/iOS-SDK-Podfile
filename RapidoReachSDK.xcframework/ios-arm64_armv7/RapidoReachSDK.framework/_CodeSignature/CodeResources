@@ -83,6 +83,16 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/WebKit.framework/Frameworks</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/Frameworks</string>
+		</dict>
+		<key>Frameworks/WebKit.framework/Versions/Current</key>
+		<dict>
+			<key>symlink</key>
+			<string>A</string>
+		</dict>
 		<key>Headers/RapidoReachSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
