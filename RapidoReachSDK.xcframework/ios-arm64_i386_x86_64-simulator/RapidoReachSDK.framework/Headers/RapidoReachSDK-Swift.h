@@ -233,7 +233,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RapidoReach 
 /// Fetch a user’s rewards, uses the registerd user by default
 - (void)fetchRewardsFor:(NSString * _Nullable)userID;
 /// Present a survey screen to the user
-- (void)presentSurvey:(UIViewController * _Nonnull)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
+- (void)presentSurvey:(UIViewController * _Nullable)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
 - (void)presentSurveyDirect;
 /// Report that a user’s abandoned the survey
 - (void)reportAbandonFor:(NSString * _Nullable)userID;
@@ -480,7 +480,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RapidoReach 
 /// Fetch a user’s rewards, uses the registerd user by default
 - (void)fetchRewardsFor:(NSString * _Nullable)userID;
 /// Present a survey screen to the user
-- (void)presentSurvey:(UIViewController * _Nonnull)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
+- (void)presentSurvey:(UIViewController * _Nullable)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
 - (void)presentSurveyDirect;
 /// Report that a user’s abandoned the survey
 - (void)reportAbandonFor:(NSString * _Nullable)userID;
@@ -727,7 +727,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RapidoReach 
 /// Fetch a user’s rewards, uses the registerd user by default
 - (void)fetchRewardsFor:(NSString * _Nullable)userID;
 /// Present a survey screen to the user
-- (void)presentSurvey:(UIViewController * _Nonnull)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
+- (void)presentSurvey:(UIViewController * _Nullable)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
 - (void)presentSurveyDirect;
 /// Report that a user’s abandoned the survey
 - (void)reportAbandonFor:(NSString * _Nullable)userID;
