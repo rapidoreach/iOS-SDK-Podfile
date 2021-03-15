@@ -40,6 +40,7 @@ public class RapidoReachDeviceInfo : RapidoReachSDK.RapidoReachDeviceInfoProvide
   public var navigationBarTextColor: UIKit.UIColor?
   public var navigationBarColor: UIKit.UIColor?
   public var statusBarStyle: UIKit.UIStatusBarStyle?
+  public var navigationBarText: Swift.String
   public init(deviceIDProvider: RapidoReachSDK.RapidoReachDeviceInfoProvider = RapidoReachDeviceInfo())
   @objc public func configure(apiKey: Swift.String, user: Swift.String)
   @objc deinit
@@ -50,6 +51,10 @@ extension RapidoReach {
   @objc dynamic public func setrewardCenterClosedCallback(rewardCallback: @escaping (() -> Swift.Void))
   @objc dynamic public func setrewardCenterOpenedCallback(rewardCallback: @escaping (() -> Swift.Void))
   @objc dynamic public func setsurveysAvailableCallback(surveyAvailableCallback: @escaping ((Swift.Bool) -> Swift.Void))
+  @objc dynamic public func setNavigationBarColor(for navColor: Swift.String)
+  @objc dynamic public func setNavigationBarTextColor(for navTextColor: Swift.String)
+  @objc dynamic public func setNavigationBarText(for navBarText: Swift.String)
+  @objc dynamic public func setStatusBarStyle(for statusBarStyle: Swift.String)
   @objc dynamic public func fetchAppUserID()
   @objc dynamic public func fetchRewards(for userID: Swift.String? = nil)
   @objc dynamic public func presentSurvey(_ presenter: UIKit.UIViewController? = UIApplication.shared.keyWindow?.rootViewController, title: Swift.String = "", completion: (() -> Swift.Void)? = nil)
