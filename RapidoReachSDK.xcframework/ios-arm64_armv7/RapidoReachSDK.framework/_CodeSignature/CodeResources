@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RapidoReachSDK-Swift.h</key>
 		<data>
-		/MtdwOpRlX7wRtk/jjkjKyBG0qc=
+		zisZDoe8g4E65ZoGO8OTnR3b3Vc=
 		</data>
 		<key>Headers/RapidoReachSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nEcMnaU25rgnxQ11rnDbeOlUxgk=
+		GHr/QnwStg+h9XFgnxJbQu4dcMI=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm.swiftinterface</key>
 		<data>
-		7Osb/+xZESLC/Y1gyj477ysiIpU=
+		40LKeCaVLm6etnYLBQbFiahWHdE=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		PH7MSdtiQDbgmxbvEsUS+l3J+JE=
+		P8f9hQkN0u5hgysiGSJ+okM9XZ8=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		OpaS8nwbKA7r4oS2dcMHThh7t74=
+		xA5QRmz7TQJogI+uj0LQof+oAHM=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4ANT9akNnoDh4ZNEU8oHP8PcTBc=
+		xdekjccz/aa1HvhfxPeGBPCU2vk=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		OpaS8nwbKA7r4oS2dcMHThh7t74=
+		xA5QRmz7TQJogI+uj0LQof+oAHM=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		4ANT9akNnoDh4ZNEU8oHP8PcTBc=
+		xdekjccz/aa1HvhfxPeGBPCU2vk=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		7Osb/+xZESLC/Y1gyj477ysiIpU=
+		40LKeCaVLm6etnYLBQbFiahWHdE=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		PH7MSdtiQDbgmxbvEsUS+l3J+JE=
+		P8f9hQkN0u5hgysiGSJ+okM9XZ8=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7.swiftinterface</key>
 		<data>
-		7Osb/+xZESLC/Y1gyj477ysiIpU=
+		40LKeCaVLm6etnYLBQbFiahWHdE=
 		</data>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		PH7MSdtiQDbgmxbvEsUS+l3J+JE=
+		P8f9hQkN0u5hgysiGSJ+okM9XZ8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,11 +97,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/MtdwOpRlX7wRtk/jjkjKyBG0qc=
+			zisZDoe8g4E65ZoGO8OTnR3b3Vc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tpmEvHg79ebd+9YcyW0H9yojRQ88t9WqhsMslRChTwM=
+			1dOqORVSbUisrdOq+A4DrQrm60pfdNAJdNatFIL4CsY=
 			</data>
 		</dict>
 		<key>Headers/RapidoReachSDK.h</key>
@@ -130,22 +130,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7Osb/+xZESLC/Y1gyj477ysiIpU=
+			40LKeCaVLm6etnYLBQbFiahWHdE=
 			</data>
 			<key>hash2</key>
 			<data>
-			AP8rJOwGv4qOhcpNYzstXhZG2nkD4oAcMD7DT2fhvnQ=
+			7/Syst+HVdqKkxnRkedUsAsrIMcci7IKKzv/SdEpLX8=
 			</data>
 		</dict>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PH7MSdtiQDbgmxbvEsUS+l3J+JE=
+			P8f9hQkN0u5hgysiGSJ+okM9XZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			N9BQ55ygxyg5qQP4Ss5YSvNZqWbiEjqWnV6Sd1wO/yg=
+			XJLz6UtEHZkQwkExolyTY8qbjwi43V82h6dSjZzIVxI=
 			</data>
 		</dict>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -163,22 +163,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OpaS8nwbKA7r4oS2dcMHThh7t74=
+			xA5QRmz7TQJogI+uj0LQof+oAHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			4B51QuyhjKJttyrhiCRIGd/5TMDKBcLftrujRbqD0ds=
+			HkyNYYBaD3PORAjiCScqhhCas4mJJcs3USg2mLabe8w=
 			</data>
 		</dict>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4ANT9akNnoDh4ZNEU8oHP8PcTBc=
+			xdekjccz/aa1HvhfxPeGBPCU2vk=
 			</data>
 			<key>hash2</key>
 			<data>
-			l7LoFu+b5OpXI+CiHCQz5HKVDCFpshFMAoXq3e9ySu8=
+			CrpT9unVeqJ3J/V8tculknmJpo09vIPwS3xwtROb+zA=
 			</data>
 		</dict>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64.swiftdoc</key>
@@ -196,22 +196,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OpaS8nwbKA7r4oS2dcMHThh7t74=
+			xA5QRmz7TQJogI+uj0LQof+oAHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			4B51QuyhjKJttyrhiCRIGd/5TMDKBcLftrujRbqD0ds=
+			HkyNYYBaD3PORAjiCScqhhCas4mJJcs3USg2mLabe8w=
 			</data>
 		</dict>
 		<key>Modules/RapidoReachSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4ANT9akNnoDh4ZNEU8oHP8PcTBc=
+			xdekjccz/aa1HvhfxPeGBPCU2vk=
 			</data>
 			<key>hash2</key>
 			<data>
-			l7LoFu+b5OpXI+CiHCQz5HKVDCFpshFMAoXq3e9ySu8=
+			CrpT9unVeqJ3J/V8tculknmJpo09vIPwS3xwtROb+zA=
 			</data>
 		</dict>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -229,22 +229,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7Osb/+xZESLC/Y1gyj477ysiIpU=
+			40LKeCaVLm6etnYLBQbFiahWHdE=
 			</data>
 			<key>hash2</key>
 			<data>
-			AP8rJOwGv4qOhcpNYzstXhZG2nkD4oAcMD7DT2fhvnQ=
+			7/Syst+HVdqKkxnRkedUsAsrIMcci7IKKzv/SdEpLX8=
 			</data>
 		</dict>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PH7MSdtiQDbgmxbvEsUS+l3J+JE=
+			P8f9hQkN0u5hgysiGSJ+okM9XZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			N9BQ55ygxyg5qQP4Ss5YSvNZqWbiEjqWnV6Sd1wO/yg=
+			XJLz6UtEHZkQwkExolyTY8qbjwi43V82h6dSjZzIVxI=
 			</data>
 		</dict>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7.swiftdoc</key>
@@ -262,22 +262,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7Osb/+xZESLC/Y1gyj477ysiIpU=
+			40LKeCaVLm6etnYLBQbFiahWHdE=
 			</data>
 			<key>hash2</key>
 			<data>
-			AP8rJOwGv4qOhcpNYzstXhZG2nkD4oAcMD7DT2fhvnQ=
+			7/Syst+HVdqKkxnRkedUsAsrIMcci7IKKzv/SdEpLX8=
 			</data>
 		</dict>
 		<key>Modules/RapidoReachSDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PH7MSdtiQDbgmxbvEsUS+l3J+JE=
+			P8f9hQkN0u5hgysiGSJ+okM9XZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			N9BQ55ygxyg5qQP4Ss5YSvNZqWbiEjqWnV6Sd1wO/yg=
+			XJLz6UtEHZkQwkExolyTY8qbjwi43V82h6dSjZzIVxI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
