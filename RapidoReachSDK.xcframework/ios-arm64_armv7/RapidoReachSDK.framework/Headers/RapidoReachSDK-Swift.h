@@ -228,16 +228,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RapidoReach 
 - (void)setrewardCenterClosedCallbackWithRewardCallback:(void (^ _Nonnull)(void))rewardCallback;
 - (void)setrewardCenterOpenedCallbackWithRewardCallback:(void (^ _Nonnull)(void))rewardCallback;
 - (void)setsurveysAvailableCallbackWithSurveyAvailableCallback:(void (^ _Nonnull)(BOOL))surveyAvailableCallback;
-- (void)setNavigationBarColorFor:(NSString * _Nonnull)navColor;
-- (void)setNavigationBarTextColorFor:(NSString * _Nonnull)navTextColor;
-- (void)setNavigationBarTextFor:(NSString * _Nonnull)navBarText;
-- (void)setStatusBarStyleFor:(NSString * _Nonnull)statusBarStyle;
 /// This is entry point of the sdk start by registering a user
 - (void)fetchAppUserID;
 /// Fetch a user’s rewards, uses the registerd user by default
 - (void)fetchRewardsFor:(NSString * _Nullable)userID;
 /// Present a survey screen to the user
-- (void)presentSurvey:(UIViewController * _Nullable)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
+- (void)presentSurvey:(UIViewController * _Nonnull)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
 - (void)presentSurveyDirect;
 /// Report that a user’s abandoned the survey
 - (void)reportAbandonFor:(NSString * _Nullable)userID;
@@ -479,16 +475,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RapidoReach 
 - (void)setrewardCenterClosedCallbackWithRewardCallback:(void (^ _Nonnull)(void))rewardCallback;
 - (void)setrewardCenterOpenedCallbackWithRewardCallback:(void (^ _Nonnull)(void))rewardCallback;
 - (void)setsurveysAvailableCallbackWithSurveyAvailableCallback:(void (^ _Nonnull)(BOOL))surveyAvailableCallback;
-- (void)setNavigationBarColorFor:(NSString * _Nonnull)navColor;
-- (void)setNavigationBarTextColorFor:(NSString * _Nonnull)navTextColor;
-- (void)setNavigationBarTextFor:(NSString * _Nonnull)navBarText;
-- (void)setStatusBarStyleFor:(NSString * _Nonnull)statusBarStyle;
 /// This is entry point of the sdk start by registering a user
 - (void)fetchAppUserID;
 /// Fetch a user’s rewards, uses the registerd user by default
 - (void)fetchRewardsFor:(NSString * _Nullable)userID;
 /// Present a survey screen to the user
-- (void)presentSurvey:(UIViewController * _Nullable)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
+- (void)presentSurvey:(UIViewController * _Nonnull)presenter title:(NSString * _Nonnull)title completion:(void (^ _Nullable)(void))completion;
 - (void)presentSurveyDirect;
 /// Report that a user’s abandoned the survey
 - (void)reportAbandonFor:(NSString * _Nullable)userID;

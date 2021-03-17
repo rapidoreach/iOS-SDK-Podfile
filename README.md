@@ -1,29 +1,23 @@
-# README #
+# RapidoReach
 
-This README would normally document whatever steps are necessary to get your application up and running.
+[![CI Status](http://img.shields.io/travis/developer@rapidoreach.com/RapidoReach.svg?style=flat)](https://travis-ci.org/developer@rapidoreach.com/RapidoReach)
+[![Version](https://img.shields.io/cocoapods/v/RapidoReach.svg?style=flat)](http://cocoapods.org/pods/RapidoReachSDK)
+[![License](https://img.shields.io/cocoapods/l/RapidoReach.svg?style=flat)](http://cocoapods.org/pods/RapidoReachSDK)
+[![Platform](https://img.shields.io/cocoapods/p/RapidoReach.svg?style=flat)](http://cocoapods.org/pods/RapidoReachSDK)
 
-### What is this repository for? ###
+## Installation
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+RapidoReach is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-### How do I get set up? ###
+```ruby
+pod "RapidoReachSDK"
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Author
 
-### Contribution guidelines ###
+developer@rapidoreach.com
 
-* Writing tests
-* Code review
-* Other guidelines
+## License
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+RapidoReach SDK is available under the MIT license. See the LICENSE file for more info.
