@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RapidoReachSDK"
-  s.version      = "1.0.3"
+  s.version      = "1.0.2"
   s.summary      = "RapidoReach - monetize your app with in-app surveys."
 
   s.description  = <<-DESC
