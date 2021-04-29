@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "RapidoReach - monetize your app with in-app surveys."
 
   s.description  = <<-DESC
-    RapidoReach provides a light, easy to use SDK that allows your app users to complete surveys in exchange for in-app content.
+    RapidoReach provides a light & easy to use SDK that allows your app users to complete surveys in exchange for in-app content.
       DESC
 
   s.homepage     = "https://www.rapidoreach.com"
