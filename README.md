@@ -16,7 +16,7 @@ pod "RapidoReachSDK"
 
 ## Author
 
-developer@rapidoreach.com
+developers@rapidoreach.com
 
 ## License
 
