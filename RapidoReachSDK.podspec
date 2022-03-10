@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.license      = "Commercial"
 
-  s.author             = { "Sudarshan Kondgekar" => "developers@rapidoreach.com" }
+  s.author             = { "Vikash Kumar" => "developers@rapidoreach.com" }
 
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = '9.0'
