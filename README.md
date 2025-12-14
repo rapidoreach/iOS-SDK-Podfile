@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RapidoReachDelegate, Rapi
         // Configure once on app start
         RapidoReach.shared.configure(apiKey: "<YOUR_API_KEY>", user: "<YOUR_APP_USER_ID>")
         
-        // Set delegates
+        // Set delegates (rewardDelegate is only used when your app is configured for client-side rewards)
         RapidoReach.shared.delegate = self
         RapidoReach.shared.rewardDelegate = self
         
@@ -77,6 +77,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RapidoReachDelegate, Rapi
 
 ## Advanced Usage
 
+### Readiness and SDK-level errors
+
+After `fetchAppUserID()` completes successfully, `RapidoReach.shared.isReady` becomes `true`.
+
+If you want explicit callbacks for readiness/errors (in addition to `RapidoReachDelegate.didGetError`), set `sdkDelegate`:
+
+```swift
+extension AppDelegate: RapidoReachSDKDelegate {
+  func onSDKReady() { print("RapidoReach ready") }
+  func onSDKError(_ error: RapidoReachError) { print("RapidoReach SDK error: \(error)") }
+}
+
+RapidoReach.shared.sdkDelegate = self
+```
+
+### Customizing SDK options (navigation bar)
+
+```swift
+RapidoReach.shared.setNavigationBarText(for: "Earn Rewards")
+RapidoReach.shared.setNavigationBarColor(for: "#211548")
+RapidoReach.shared.setNavigationBarTextColor(for: "#FFFFFF")
+```
+
+### User identity
+
+If your user logs in/out, update the user identifier and refresh SDK state:
+
+```swift
+RapidoReach.shared.setUserIdentifier("NEW_USER_ID")
+RapidoReach.shared.fetchAppUserID()
+```
+
 ### Placements
 Check if content is available for a specific placement tag before showing it.
 
@@ -95,6 +127,24 @@ RapidoReach.shared.canShowContent(tag: "default") { result in
 }
 ```
 
+Other placement helpers:
+- `getPlacementDetails(tag:completion:)`
+- `hasSurveys(tag:completion:)`
+- `canShowSurvey(surveyId:tag:completion:)`
+
+### Content lifecycle events (per placement)
+
+If you want callbacks when content is shown/dismissed for a placement tag:
+
+```swift
+extension AppDelegate: RapidoReachContentDelegate {
+  func onContentShown(forPlacement placement: String) {}
+  func onContentDismissed(forPlacement placement: String) {}
+}
+
+RapidoReach.shared.contentDelegate = self
+```
+
 ### User Attributes
 Send user attributes for better survey targeting.
 
@@ -104,7 +154,7 @@ let attributes: [String: Any] = [
     "age": 25,
     "zip": "90210"
 ]
-RapidoReach.shared.sendUserAttributes(attributes)
+RapidoReach.shared.sendUserAttributes(attributes, clearPrevious: false)
 ```
 
 ### Custom Parameters
@@ -132,6 +182,78 @@ RapidoReach.shared.listSurveys(tag: "default") { result in
         }
     }
 }
+```
+
+### Presenting content
+
+Most apps should use:
+- `presentOfferwall(from:title:customParameters:completion:)`
+
+If you have a single-survey flow, you can also present the survey view:
+- `presentSurvey(_:title:customParameters:completion:)`
+
+### Quick Questions
+
+```swift
+RapidoReach.shared.hasQuickQuestions(tag: "default") { result in
+  if case .success(let has) = result, has {
+    RapidoReach.shared.fetchQuickQuestions(tag: "default") { payloadResult in
+      if case .success(let payload) = payloadResult {
+        // payload contains `quick_questions` with question objects (including `id`)
+        let questions = payload["quick_questions"] as? [[String: Any]] ?? []
+        let firstId = questions.first?["id"] as? String ?? ""
+        guard !firstId.isEmpty else { return }
+
+        RapidoReach.shared.answerQuickQuestion(id: firstId, placement: "default", answer: "yes") { _ in }
+      }
+    }
+  }
+}
+```
+
+### Rewards
+
+For production reward attribution, use server-to-server callbacks whenever possible.
+If your app is configured for client-side rewards, you can also refresh reward state from the client:
+
+```swift
+RapidoReach.shared.fetchRewards()
+```
+
+### Report abandon (optional)
+
+If you want to report that a user abandoned the survey session:
+
+```swift
+RapidoReach.shared.reportAbandon()
+```
+
+### App Tracking Transparency (ATT)
+
+If your app uses IDFA, request tracking permission in your app and include `NSUserTrackingUsageDescription` in `Info.plist`.
+The SDK provides a helper via its default device info provider:
+
+```swift
+RapidoReachDeviceInfo().requestTrackingPermission()
+```
+
+### Debug logging
+
+Forward SDK log lines into your app logging:
+
+```swift
+RapidoReachLogger.shared.level = .debug
+RapidoReachLogger.shared.sink = { level, line in
+  print(line)
+}
+```
+
+### SwiftUI helper (optional)
+
+If you use SwiftUI, you can use the built-in button:
+
+```swift
+RapidoReachOfferwallButton(title: "Surveys", placement: "default")
 ```
 
 ## Troubleshooting
