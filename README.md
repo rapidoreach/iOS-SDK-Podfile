@@ -9,7 +9,7 @@ platform :ios, '12.0'
 use_frameworks!
 
 target 'YourApp' do
-  pod 'RapidoReach', '~> 1.0.7'
+  pod 'RapidoReach', '~> 1.0.8'
 end
 ```
 
