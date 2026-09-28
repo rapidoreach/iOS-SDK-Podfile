@@ -2,6 +2,10 @@
 
 Lightweight rewarded survey offerwall SDK for iOS. Integrate to monetise your users with minimal effort and a native WebView experience.
 
+## Integrate with an AI coding agent
+
+Download the [iOS Agent Skill](https://docs.rapidoreach.com/downloads/rapidoreach-ios-1.1.0.zip), the [verification skill](https://docs.rapidoreach.com/downloads/rapidoreach-verify-1.1.0.zip), or the [complete skill bundle](https://docs.rapidoreach.com/downloads/rapidoreach-agent-skills-1.1.0.zip). The [Agent Skills guide](https://docs.rapidoreach.com/docs/v2/sdk/ai-agent-skills) explains installation in Codex and Claude Code. Use the [current iOS guide](https://docs.rapidoreach.com/docs/v2/sdk/iossdk) for package and platform requirements.
+
 ## Installation (CocoaPods)
 
 ```ruby
